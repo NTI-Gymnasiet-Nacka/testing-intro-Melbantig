@@ -1,10 +1,7 @@
 # Palindrome
 def main():
     word=str(input(''))
-    if word == word[::-1]:
-        print('True')
-    else:
-        print('False')
+    print(word == word[::-1]:)
     
 if __name__ == "__main__":
     main()
