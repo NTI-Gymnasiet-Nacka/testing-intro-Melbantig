@@ -1,8 +1,10 @@
 # Palindrome
-
 def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
-
+    word=str(input(''))
+    if word == word[::-1]:
+        print('True')
+    else:
+        print('False')
+    
 if __name__ == "__main__":
     main()
